@@ -74,7 +74,7 @@ export class UserService {
   async removeUser(id: number): Promise<void> {
     const user = await this.getUserById(id);
     if (user.role === Role.ADMIN) notAcceptable('Admins can not be delete');
-    await user.softRemove();
+    await user.remove();
   }
 
   async createAdminUser() {
