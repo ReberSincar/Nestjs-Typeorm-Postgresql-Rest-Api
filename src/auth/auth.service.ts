@@ -4,7 +4,7 @@ import { JwtService } from '@nestjs/jwt';
 import { PasswordUtils } from 'src/common/utils/password.utils';
 import { notAcceptable, unauthorized } from 'src/common/errors';
 import { ConfigService } from '@nestjs/config';
-import { ChangePasswordDto } from './dto/change-password.dt';
+import { ChangePasswordDto } from './dto/change-password.dto';
 
 @Injectable()
 export class AuthService implements OnApplicationBootstrap {
