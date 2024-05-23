@@ -4,7 +4,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 export class SwaggerHelper {
   static createSwaggerDoc(app: INestApplication) {
     const config = new DocumentBuilder()
-      .setTitle('eAdamCase Swagger API Docs')
+      .setTitle('Nestjs Typeorm Postgres Rest Example Swagger API Docs')
       .setVersion('1.0')
       .addBearerAuth()
       .build();
