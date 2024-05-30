@@ -25,7 +25,7 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.</br>
-Swagger documents can reach from localhost:300/docs.
+Swagger documents can reach from localhost:3000/docs.
 
 ## Installation
 
